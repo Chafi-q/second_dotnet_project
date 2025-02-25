@@ -3,3 +3,7 @@ TrustServerCertificate=True
 
 ## code first migration
 dotnet ef migrations add InitialCreate
+
+## install first tool
+dotnet tool install --global dotnet-ef --version 9.*
+
