@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chafiq\\api\\api.csproj": {}
+    "C:\\Users\\chafiq\\Dotnet Project\\First_API\\api\\api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chafiq\\api\\api.csproj": {
+    "C:\\Users\\chafiq\\Dotnet Project\\First_API\\api\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chafiq\\api\\api.csproj",
+        "projectUniqueName": "C:\\Users\\chafiq\\Dotnet Project\\First_API\\api\\api.csproj",
         "projectName": "api",
-        "projectPath": "C:\\Users\\chafiq\\api\\api.csproj",
+        "projectPath": "C:\\Users\\chafiq\\Dotnet Project\\First_API\\api\\api.csproj",
         "packagesPath": "C:\\Users\\chafiq\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chafiq\\api\\obj\\",
+        "outputPath": "C:\\Users\\chafiq\\Dotnet Project\\First_API\\api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

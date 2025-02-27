@@ -20,6 +20,9 @@ public class SchoolController : ControllerBase
         _context = context;
     }
 
+
+    public SchoolController () {}
+
     [HttpGet]
     public async Task<ActionResult<IEnumerable<School>>> GetAllSchools()
     {
@@ -67,4 +70,15 @@ public class SchoolController : ControllerBase
         await _context.SaveChangesAsync();
         return NoContent();
     }
+
+
+      [HttpPost("average")]
+        public ActionResult<double> CalculateAverage([FromBody] double[] numbers)
+        {
+            if (numbers == null || numbers.Length == 0)
+                return BadRequest("Le tableau ne peut pas être vide.");
+
+            double average = numbers.Average();
+            return Ok(average);
+        }
 }
